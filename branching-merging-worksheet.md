@@ -36,14 +36,14 @@ git commit -m "Define what is branching"
 
 ### Why branch
 
-- [ ] List at least three reasons why you would use branches in a project
+x List at least three reasons why you would use branches in a project
 
-> Your list goes here
-> 1.
-> 2.
-> 3.
+Reasons are:
+1.For bug fixing
+2.For new feature
+3.to revert to previous/old version of project in case of failure.
 
-- [ ] Commit your changes - remember to use a descriptive message
+X Commit your changes - remember to use a descriptive message
 
 ### How to create a branch
 
