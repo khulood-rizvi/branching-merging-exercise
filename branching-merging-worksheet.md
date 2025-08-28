@@ -4,7 +4,7 @@
 
 Actions you need to perform are marked with `- [ ]` replace the space with an `x` when you complete the action.
 
-- [ ] Before you start, create a new git repo and add the worksheet to it:
+x Before you start, create a new git repo and add the worksheet to it:
 
 ```bash
 cd source/repos
@@ -21,11 +21,12 @@ git commit -m "Add branching-merging-worksheet.md"
 
 ### Definition
 
-- [ ] In your own words define what is branching
+x In your own words define what is branching
 
-> Your definition goes here
+> A branching is just like a tree branch which is intact with tree but growing its own leaves and flowers. 
+Similarly, branch in version control system is like a part of a project but isolated to work on new feature or bug fixes so other people working on main would not get interrupte.
 
-- [ ] Commit your changes:
+X Commit your changes:
 
 ```bash
 git add .
