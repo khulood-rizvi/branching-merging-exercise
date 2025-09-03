@@ -57,12 +57,13 @@ git switch <branch-name>
 
 - [ ] Briefly describe what each command does:
 
-> Your description goes here
-> 
+> git branch <branch-name> will create a new branch.Throw warning if already exist.
+> git switch <branch-name> will switch the current working node/branch to be <branch-name>
+
 - [ ] Create a new branch called `feature-1` and switch to it
 - [ ] Did your working copy change? Why or why not?
 
-> Your answer goes here
+> No, working copy doesn't change
 
 x Commit your changes
 x  Switch back to main
