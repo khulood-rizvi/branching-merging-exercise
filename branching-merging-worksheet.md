@@ -76,16 +76,17 @@ If you did everything correctly, your answer to the previous question is gone! H
 
 Don't worry, we can get it back. But first:
 
-- [ ] Commit your changes to the main branch
+x Commit your changes to the main branch
 
 
 ### Merging changes
 
-- [ ] What is merging?
-> Your answer goes here
+x What is merging?
+> combining files/ directories so that you have combined file(s) from all branches
 
-- [ ] What is a merge conflict?
-> Your answer goes here
+x What is a merge conflict?
+> If the same file contains different text, even different in layout and design then git 
+> arise confilt between them while merging.
 
 When there is a merge conflict, you need to resolve it before you can merge the changes. Git will mark the conflicted files, and you need to manually resolve the conflicts – that is, edit the files to remove the conflict markers and make the changes you want to keep. Here's an example of a file with a merge conflict:
 
@@ -98,18 +99,19 @@ Text from the version in the feature-1 branch
 ```
 
 
-- [ ] How do you resolve a merge conflict?
-> Your answer goes here
+X How do you resolve a merge conflict?
+> by checking and resolving merge conflict between the same file between branches.
 
-- [ ] Attempt to merge the `feature-1` branch into `main`:
+X Attempt to merge the `feature-1` branch into `main`:
 
 ```bash
 git merge feature-1
 ```
 
-- [ ] Did it work? Why or why not?
+X Did it work? Why or why not?
 
-> Your answer goes here
+> It didn't merge as i didnt stage the changes in branching-merging-worksheet.md and commit 
+> it, so its throwing an error of overwritten
 
 Before you can merge, you need to commit any changes in your working copy (or stash, but we'll talk about that later)
 
