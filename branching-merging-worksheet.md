@@ -64,10 +64,12 @@ git switch <branch-name>
 
 > Your answer goes here
 
-- [ ] Commit your changes
-- [ ] Switch back to main
-- [ ] Did you notice any changes in the working copy after the commit? Why or why not?
-> Your answer goes here
+x Commit your changes
+x  Switch back to main
+x  Did you notice any changes in the working copy after the commit? Why or why not?
+
+> yes my working copy not even showing the minor changes i made, before switching to feature.
+  Since I didn't commit but create and switch to new branch so feature-1 carries forward the changes
  
 **Oh no!** 
 If you did everything correctly, your answer to the previous question is gone! Haha.
