@@ -116,13 +116,13 @@ X Did it work? Why or why not?
 
 Before you can merge, you need to commit any changes in your working copy (or stash, but we'll talk about that later)
 
-- [ ] Commit your changes
-- [ ] Attempt to merge the `feature-1` branch into `main` again
-- [ ] Did it work? Why or why not? If a merge succeeded, what was the merge strategy used? If there was a merge conflict, resolve it.
+x Commit your changes
+x Attempt to merge the `feature-1` branch into `main` again
+x Did it work? Why or why not? If a merge succeeded, what was the merge strategy used? If there was a merge conflict, resolve it.
   
-> Describe the merge strategy used and the result of the merge
+> yes it worked. If there is a merged conflict then resolve it
 
-- [ ] Commit your changes and/or resolve the merge conflict
+x Commit your changes and/or resolve the merge conflict
 
 ### Deleting branches
 
@@ -137,16 +137,23 @@ We can look into the past and see the evolution of our project using the git log
 
 We'll use a couple of popular options to see the history of our project.
 
-- [ ] Run the following commands:
+X Run the following commands:
 
 ```bash 
 git log
 git log --oneline
 git log --oneline --graph --decorate --all
 ```
-- [ ] Briefly describe the output of each command
+X Briefly describe the output of each command
 
-> Your description goes here
+> git log: shows all the log since the project/repo is created.If screen is small then
+pressing enter is to show more lines.Detailed description like author, time is shown with
+messages
+ ![img.png](img.png)
+> git log --oneline : one line info of commit messages are shown
+> git log --online --graph --decorate --all
+![img_1.png](img_1.png)
+
 
 - [ ] Commit your changes
 - [ ] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
