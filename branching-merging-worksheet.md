@@ -155,8 +155,8 @@ messages
 ![img_1.png](img_1.png)
 
 
-x Commit your changes
-x Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
+- [ ] Commit your changes
+- [ ] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
 
 > Your reflection goes here
 
