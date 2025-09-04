@@ -155,10 +155,15 @@ messages
 ![img_1.png](img_1.png)
 
 
-- [ ] Commit your changes
-- [ ] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
+- [X] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
 
-> Your reflection goes here
+* Honestly, notepad was not showing all the differences between the branches( branching-within merging-exercise.md).So its better to use either Git GUI or PyCharm to view files
+* I learned how to clone from local repository to remote.
+    * first create a repository on github with the name
+    * now on local use git command git clone --mirror https://github.com/repo-name.git
+* If you want to fetch latest project updates . Use git fetch https://github.com/repo-name.git. 
+* If shows conflict then resolve it and then use git merge command
+
 
 **Done!**
 Or are you? There are always new changes to commit ;) 
