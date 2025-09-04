@@ -109,10 +109,10 @@ Text from the version in the feature-1 branch
 git merge feature-1
 ```
 
-- [x]Did it work? Why or why not?
+- [x] Did it work? Why or why not?
 
 > It didn't merge as i didnt stage the changes in branching-merging-worksheet.md and commit 
-> it, so its throwing an error of overwritten
+ it, so its throwing an error of overwritten
 
 Before you can merge, you need to commit any changes in your working copy (or stash, but we'll talk about that later)
 
@@ -137,14 +137,14 @@ We can look into the past and see the evolution of our project using the git log
 
 We'll use a couple of popular options to see the history of our project.
 
-X Run the following commands:
+- [X] Run the following commands:
 
 ```bash 
 git log
 git log --oneline
 git log --oneline --graph --decorate --all
 ```
-X Briefly describe the output of each command
+- [x] Briefly describe the output of each command
 
 > git log: shows all the log since the project/repo is created.If screen is small then
 pressing enter is to show more lines.Detailed description like author, time is shown with
@@ -155,10 +155,14 @@ messages
 ![img_1.png](img_1.png)
 
 
-- [ ] Commit your changes
-- [ ] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
+- [X] Commit your changes
+- [X] Reflect on what you learned about branching and merging. What was the most challenging part? What was the most interesting part?
 
-> Your reflection goes here
+* Honestly, notepad was not showing all the differences between the branches( branching-within merging-exercise.md).So its better to use either Git GUI or PyCharm to view files
+* I learned how to clone from local repository to remote.
+    * first create a repository on github with the name
+    * now on local use git command git clone --mirror https://github.com/repo-name.git
+* If you want to fetch latest project updates . Use git fetch https://github.com/repo-name.git.If it shows conflict then resolve it and then use git merge command
 
 **Done!**
 Or are you? There are always new changes to commit ;) 
